@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  float: left;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.nav-link.active {
+  color: #ffd700 !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(79,70,229,0.08);
+}
+.card-title {
+  color: #4f46e5;
+  font-weight: bold;
+}
+.card-text {
+  color: #374151;
+}
+
+.table {
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+.table-primary {
+  background: #6366f1;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #4f46e5;
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+.btn-success {
+  background-color: #10b981;
+  border-color: #10b981;
+}
+.btn-primary:hover, .btn-success:hover {
+  filter: brightness(1.1);
+}
+
+h1, h2, h3, h4, h5 {
+  color: #4f46e5;
+}
+
+a {
+  color: #6366f1;
+  text-decoration: none;
+}
+a:hover {
+  color: #10b981;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
